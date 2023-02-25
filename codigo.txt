@@ -1,0 +1,21 @@
+int edad;
+float identificador;
+bool x;
+char letra;
+long y;
+x = 2004;
+y = x++;
+
+cout <<"Ingrese edad";
+cin >>edad;
+
+if(edad < 18){
+cout <<"eres menor de edad";
+}
+else{
+cout <<"Mayor de edad";
+}
+
+while(edad == 0){
+cout <<"Error";
+}

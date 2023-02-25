@@ -1,0 +1,2 @@
+D:\CUCEI\7mo\Sem Traductores II\analizador_sintactico\x64\Debug\analizador_sintactico.exe
+D:\CUCEI\7mo\Sem Traductores II\analizador_sintactico\x64\Debug\analizador_sintactico.pdb
