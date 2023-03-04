@@ -1,22 +1,7 @@
-int edad;
-float identificador;
-bool x;
-char letra;
-int y;
-x = true;
-y = x++;
-
-cout <<"Ingrese edad";
-cin >>edad;
-
-if(edad < 18) {
-cout <<"eres menor de edad";
-} else if(edad >= 18 && edad <=21) {
-cout <<"Mayor de edad en mexico";
+if(calificacion <= 60) {
+cout <<"aprobado";
+} else if(calificacion > 60 && calificacion <= 80) {
+cout <<"aprobado con una calificacion de 60 - 80";
 } else {
-cout <<"Mayor de edad en todo el mundo";
-}
-
-while(edad == 0) {
-cout <<"Error";
+cout <<"aprobado con una calificacion de 80 - 100";
 }
