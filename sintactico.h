@@ -245,7 +245,7 @@ void sintactico_cin(string cadena, int i) {
                     x++;
                     i++;
                 }
-                reserva[x] = '\'0';
+                reserva[x] = '\0';
                 if (es_identificador(reserva)) {
                     cout << "\t[ENTRADA DE DATOS]" << endl;
                 }
@@ -617,7 +617,7 @@ void analizar_cadena_sintactico(string cadena) {
         linea = lineas[numLinea];
         posFinalIf = 0;
         cout << "\t\t[DECLARACION DE IF]";
-        imprimirCondicion(linea, true);
+        //imprimirCondicion(linea, true);
         return;
     }
     if (analizarDeclaracionElse(cadena)) {
@@ -626,7 +626,7 @@ void analizar_cadena_sintactico(string cadena) {
         linea = lineas[numLinea];
         posFinalIf = 0;
         cout << "\t\t[DECLARACION DE ELSE]";
-        imprimirCondicion(linea, false);
+        //imprimirCondicion(linea, false);
         return;
     }
     if (analizarDeclaracionElseIf(cadena)) {
@@ -635,7 +635,7 @@ void analizar_cadena_sintactico(string cadena) {
         linea = lineas[numLinea];
         posFinalIf = 0;
         cout << "\t\t[DECLARACION DE ELSE IF]";
-        imprimirCondicion(linea, true);
+        //imprimirCondicion(linea, true);
         return;
     }
     if (analizarDeclaracionWhile(cadena)) {
@@ -644,7 +644,7 @@ void analizar_cadena_sintactico(string cadena) {
         linea = lineas[numLinea];
         posFinalIf = 0;
         cout << "\t\t[DECLARACION DE WHILE]";
-        imprimirCondicion(linea, true);
+        //imprimirCondicion(linea, true);
         return;
     }
     if (analizarDeclaracionSwitch(cadena)) {

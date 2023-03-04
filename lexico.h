@@ -870,7 +870,7 @@ bool es_condicional_valido(string cadena) {
         if (!es_niftf) {
             while (i < cad_tam) {
                 if (cadena[i] == '!' and i + 1 < cad_tam) {
-                    if (cadena[i + 1] == '!') {
+                    if (cadena[i] == '!') {
                         subcadena.push_back(cadena[i]);
                         break;
                     }

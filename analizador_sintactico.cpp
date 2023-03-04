@@ -21,7 +21,7 @@ string escanearNombreArchivo() {
     system("CLS");
     setlocale(LC_CTYPE, "Spanish");
     cout << endl << "\t-----------Analizador Sintactico-----------" << endl;
-    cout << endl << "Ingrese nombre del archivo: ";
+    cout << endl << "\tIngrese nombre del archivo: ";
     getline(cin, archivo);
     cout << endl << "---------------------------------------------";
     return archivo;

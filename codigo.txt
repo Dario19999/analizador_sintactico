@@ -2,20 +2,21 @@ int edad;
 float identificador;
 bool x;
 char letra;
-long y;
-x = 2004;
+int y;
+x = true;
 y = x++;
 
 cout <<"Ingrese edad";
 cin >>edad;
 
-if(edad < 18){
+if(edad < 18) {
 cout <<"eres menor de edad";
-}
-else{
-cout <<"Mayor de edad";
+} else if(edad >= 18 && edad <=21) {
+cout <<"Mayor de edad en mexico";
+} else {
+cout <<"Mayor de edad en todo el mundo";
 }
 
-while(edad == 0){
+while(edad == 0) {
 cout <<"Error";
 }
